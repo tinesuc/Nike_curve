@@ -434,3 +434,62 @@ img.animated.pulse {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.img-stack{
+    position:relative;
+}
+.img-stack img{
+    width: -webkit-fill-available; 
+    width: -moz-available;
+    position:relative;
+}
+.img-stack:has(.nk-raster,.nk-draw-lv,.nk-trace-lv){
+    translate: 0 15%;
+}
+.img-stack:has(.nk-draw,.nk-trace){
+    translate: 0 5%;
+}
+.img-stack .nk-raster{
+    top: -46%;
+    scale: 0.6;
+    left: 24%;
+    transform: skew(347deg,4deg);
+    filter: invert(1);
+    clip-path: polygon(100% 63%, 100% 100%, 0 100%, 0 0);
+}
+.img-stack .nk-draw{
+    translate: 0 -204%;
+    scale: 0.53;
+    left: 26%;
+    transform: skew(343deg,1deg);
+    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%);
+    clip-path:  polygon(74% 10%, 86% 100%, 0 100%, 0 0);
+}
+.img-stack .nk-trace{
+    translate: 0 -210%;
+    scale: 0.43;
+    left: 25%;
+    transform: skew(354deg,1deg);
+    filter: invert(13%) sepia(26%) saturate(24%) hue-rotate(315deg) brightness(100%) contrast(96%);
+    clip-path:  polygon(40% 29%, 75% 0, 33% 100%, 0 100%, 0 33%);
+    rotate: 8deg;
+}
+.img-stack .nk-draw-lv{
+    translate: 0 -270%;
+    scale: 0.53;
+    left: 15.5%;
+    transform: skew(343deg,1deg);
+    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%);
+    clip-path: polygon(74% 10%, 86% 100%, 0 100%, 0 0);
+    rotate: 330deg;
+}
+
+.img-stack .nk-trace-lv{
+    translate: 0 -264.5%;
+    scale: 0.43;
+    left: 19%;
+    transform: skew(354deg,1deg);
+    filter: invert(13%) sepia(26%) saturate(24%) hue-rotate(315deg) brightness(100%) contrast(96%);
+    clip-path: polygon(40% 29%, 75% 0, 33% 100%, 0 100%, 0 33%);
+    rotate: -22deg;
+}
