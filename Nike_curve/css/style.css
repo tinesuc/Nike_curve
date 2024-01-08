@@ -449,8 +449,15 @@ img.animated.pulse {
 .img-stack:has(.nk-draw,.nk-trace){
     translate: 0 5%;
 }
+.container:has(.img-stack .nk-raster):not(:has(.mx-auto)) .img-stack:has(.nk-raster) img:not(.nk-raster){
+    translate: 0 -60%;
+}
+.container:has(.img-stack .nk-raster):not(:has(.mx-auto)) .img-stack:has(.nk-raster){
+    height:0;
+}
+
 .img-stack .nk-raster{
-    top: -46%;
+    translate: 0 -178%;
     scale: 0.6;
     left: 24%;
     transform: skew(347deg,4deg);
