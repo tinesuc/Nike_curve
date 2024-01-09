@@ -500,6 +500,6 @@ img.animated.pulse {
     left: 19%;
     transform: skew(354deg,1deg);
     filter: invert(13%) sepia(26%) saturate(24%) hue-rotate(315deg) brightness(100%) contrast(96%);
-    clip-path: polygon(40% 29%, 75% 0, 33% 100%, 0 100%, 0 33%);
+    clip-path: polygon(20% 0, 75% 0, 33% 100%, 0 100%, 0 60%);
     rotate: -22deg;
 }
