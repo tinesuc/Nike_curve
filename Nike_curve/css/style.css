@@ -462,7 +462,7 @@ img.animated.pulse {
     left: 24%;
     transform: skew(347deg,4deg);
     filter: invert(1);
-    clip-path: polygon(100% 63%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(40% 19%, 100% 67%, 100% 100%, 0 100%, 0 56%);
 }
 .container:has(.img-stack .nk-raster):not(:has(.mx-auto)) .img-stack:has(.nk-raster) .nk-raster{
     translate: 0 -178%;
