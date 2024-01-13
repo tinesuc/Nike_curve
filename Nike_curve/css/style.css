@@ -457,32 +457,41 @@ img.animated.pulse {
 }
 
 .img-stack .nk-raster{
-    translate: 0 -103%;
+    translate: 0 -104%;
     scale: 0.6;
     left: 24%;
     transform: skew(347deg,4deg);
     filter: invert(1);
-    clip-path: polygon(40% 19%, 100% 67%, 100% 100%, 0 100%, 0 56%);
+    wiesdth: 100%;
+  opacity:0.87;
+    clip-path: polygon(18% 41%, 53% 35%, 96% 59%, 23% 78%, 0 70%, 2% 63%, 5% 55%, 9% 49%);
 }
 .container:has(.img-stack .nk-raster):not(:has(.mx-auto)) .img-stack:has(.nk-raster) .nk-raster{
-    translate: 0 -178%;
+    translate: 0 -179%;
 }
 .img-stack .nk-draw{
-    translate: 0 -204%;
-    scale: 0.53;
-    left: 26%;
-    transform: skew(343deg,1deg);
-    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%);
-    clip-path:  polygon(74% 10%, 86% 100%, 0 100%, 0 0);
+    translate: 0 -207%;
+    scale: 0.53 ;
+    left: 26.2% ;
+    transform: skew(349deg,357deg) scaleY(0.8) ;
+    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%) ;
+    rotate: 0deg ;
+    background-color: #d3d0c980 ;
+    width: 100% ;
+    /* opacity: 0.87 ; */
+    height: 36.19% ;
+    clip-path: polygon(5% 32%, 9% 23%, 13% 16%, 75% 12%, 82% 99%, 0 100%, 0 100%, 0 63%, 3% 40%);
 }
 .img-stack .nk-trace{
-    translate: 0 -210%;
-    scale: 0.43;
-    left: 25%;
-    transform: skew(354deg,1deg);
+    translate: 0 -207%;
+    scale: 0.42;
+    left: 24.6%;
+    transform: skew(354deg,358deg);
     filter: invert(13%) sepia(26%) saturate(24%) hue-rotate(315deg) brightness(100%) contrast(96%);
-    clip-path:  polygon(40% 29%, 75% 0, 33% 100%, 0 100%, 0 33%);
-    rotate: 8deg;
+    rotate: 13deg;
+    width: 100%;
+    opacity: 0.87;
+    clip-path: polygon(10% 26%, 13% 23%, 59% 25%, 53% 48%, 42% 99%, 0 100%, 0 61%, 3% 44%, 6% 35%);
 }
 .img-stack .nk-draw-lv{
     translate: 0 -270%;
@@ -495,11 +504,13 @@ img.animated.pulse {
 }
 
 .img-stack .nk-trace-lv{
-    translate: 0 -264.5%;
-    scale: 0.43;
+    translate: 0 -261.4%;
+    scale: 0.42;
     left: 19%;
-    transform: skew(354deg,1deg);
+    transform: skew(354deg,358deg);
     filter: invert(13%) sepia(26%) saturate(24%) hue-rotate(315deg) brightness(100%) contrast(96%);
-    clip-path: polygon(20% 0, 75% 0, 33% 100%, 0 100%, 0 60%);
-    rotate: -22deg;
+    rotate: -17deg;
+    width: 100%;
+    opacity: 0.87;
+    clip-path: polygon(10% 26%, 13% 23%, 59% 25%, 53% 48%, 42% 99%, 0 100%, 0 61%, 3% 44%, 6% 35%);
 }
