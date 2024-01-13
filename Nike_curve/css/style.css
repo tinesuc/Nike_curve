@@ -476,11 +476,9 @@ img.animated.pulse {
     transform: skew(349deg,357deg) scaleY(0.8) ;
     filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%) ;
     rotate: 0deg ;
-    background-color: #d3d0c980 ;
     width: 100% ;
-    /* opacity: 0.87 ; */
-    height: 36.19% ;
-    clip-path: polygon(5% 32%, 9% 23%, 13% 16%, 75% 12%, 82% 99%, 0 100%, 0 100%, 0 63%, 3% 40%);
+    opacity: 0.87 ;
+    clip-path: polygon(3% 42%, 7% 29%, 13% 16%, 75% 16%, 77% 38%, 35% 100%, 0 100%, 0 80%, 0 62%);
 }
 .img-stack .nk-trace{
     translate: 0 -207%;
@@ -494,13 +492,15 @@ img.animated.pulse {
     clip-path: polygon(10% 26%, 13% 23%, 59% 25%, 53% 48%, 42% 99%, 0 100%, 0 61%, 3% 44%, 6% 35%);
 }
 .img-stack .nk-draw-lv{
-    translate: 0 -270%;
+    translate: 0 -272%;
     scale: 0.53;
-    left: 15.5%;
-    transform: skew(343deg,1deg);
-    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%);
-    clip-path: polygon(74% 10%, 86% 100%, 0 100%, 0 0);
-    rotate: 330deg;
+    left: 15.2%;
+    transform: skew(349deg,357deg) scaleY(0.8) ;
+    filter: invert(37%) sepia(24%) saturate(525%) hue-rotate(184deg) brightness(84%) contrast(85%) ;
+    rotate: -30deg ;
+    width: 100% ;
+    opacity: 0.87 ;
+    clip-path: polygon(3% 42%, 7% 29%, 13% 16%, 75% 16%, 77% 38%, 35% 100%, 0 100%, 0 80%, 0 62%);
 }
 
 .img-stack .nk-trace-lv{
